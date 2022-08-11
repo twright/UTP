@@ -181,6 +181,8 @@ where "while_vrt b p v P = while_bot b P"
 
 subsection \<open> Predicate Semantics \<close>
 
+term "II"
+
 lemma pred_skip: "II = ($\<^bold>v\<^sup>> = $\<^bold>v\<^sup><)\<^sub>e"
   by pred_simp
 
